@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+
+    <section class="articles">
+
+{# (article>h2{Title de l'article}+div.metadata{ecrit le 23/06/2020 à 18h dans la catégorie Politique}+div.content>img+(p>lorem15)*2+a.btn.btn-primary{Lire la suite})*3#}
+        {% for article in articles  %}
+        <article>
+            <h2>{{ article.titre }}</h2>
+            <div class="metadata">ecrit le {{ article.createdAt |date('d/m/y') }} à {{ article.createdAt |date('H:i') }} dans la catégorie Politique</div>
+            <div class="content"><img src="{{ article.image }}" alt="bleu">
+                <p>
+                    {{ article.content | raw }}
+                </p>
+                <a href="{{ path('blog_show', { 'id':article.id }) }}" class="btn btn-primary">Lire la suite</a></div>
+        </article>
+        {% endfor  %}
+    </section>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{#{% block body %}#}
+{#{% set index = 1 %}#}
+{#    {% for article in articles  %}#}
+{#        {% if (index is divisible by(3) == 0 ) %}#}
+{#            <div class="row" style="border-color: #C82829;border-style: solid">#}
+{#        {% endif %}#}
+{#        <div class="col-sm-4"  style="border-color: #6E6E6E;border-style: solid">#}
+{#            {{ article.content | raw }}#}
+{#        </div>#}
+{#        {% if (index is divisible by(3)== 1 ) %}#}
+{#        </div>#}
+{#{% endif %}#}
+{#{% set index =index+1 %}#}
+{# {% endfor  %}#}
+{#{% endblock %}#}
+
+

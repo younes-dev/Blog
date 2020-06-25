@@ -1,0 +1,96 @@
+   ----------------------------------------------------------
+   -------            Use ObjectManager               -------
+   ----------------------------------------------------------
+   - Add this line to service.yaml : Doctrine\Persistence\ObjectManager: '@doctrine.orm.default_entity_manager'
+
+    /**
+     * @Route("blog/new",name="blog_new", methods={"POST","GET"})
+     * @param Request $request
+     * @param ObjectManager $manager
+     * @return string
+     */
+    public function new(Request $request, ObjectManager $manager)
+    {
+        if($request->request->count() > 0){
+            $article=new Article();
+            $article->setTitre($request->request->get('titre'))
+                    ->setContent($request->request->get('content'))
+                    ->setImage($request->request->get('image'))
+                    ->setCreatedAt(new \DateTime());
+            $manager->persist($article);
+            $manager->flush();
+            return $this->redirectToRoute('blog_show',[
+                'id' => $article->getId()
+            ]);
+
+        }
+
+        return $this->render("blog/create.html.twig");
+    }
+
+    <h1>Creation d'un article </h1>
+    <form action="" method="post">
+
+        <input type="text" name="titre" placeholder="Titre de l'article">
+        <textarea name="content" placeholder="contenu de l'article"></textarea>
+        <input type="input" name="image" placeholder="image de l'article">
+        <button type="submit">Enregistrer </button>
+    </form>
+   ----------------------------------------------------------
+   -------       Use EntityManagerInterface           -------
+   ----------------------------------------------------------
+
+    /**
+     * @Route("blog/new",name="blog_new", methods={"POST","GET"})
+     * @param Request $request
+     * @param EntityManagerInterface $manager
+     * @return string
+     */
+    public function new(Request $request, EntityManagerInterface $manager)
+    {
+
+        if($request->request->count() > 0){
+            $article=new Article();
+            $article->setTitre($request->request->get('titre'))
+                    ->setContent($request->request->get('content'))
+                    ->setImage($request->request->get('image'))
+                    ->setCreatedAt(new \DateTime());
+            $manager->persist($article);
+            $manager->flush();
+            return $this->redirectToRoute('blog_show',[
+                'id' => $article->getId()
+            ]);
+        }
+
+        return $this->render("blog/create.html.twig");
+    }
+
+   ----------------------------------------------------------
+   -------           Use ManagerRegistry              -------
+   ----------------------------------------------------------
+
+    /**
+     * @Route("blog/new",name="blog_new", methods={"POST","GET"})
+     * @param Request $request
+     * @param ManagerRegistry $manager
+     * @return string
+     */
+    public function new(Request $request, ManagerRegistry $manager)
+    {
+
+        if($request->request->count() > 0){
+            $article=new Article();
+            $article->setTitre($request->request->get('titre'))
+                    ->setContent($request->request->get('content'))
+                    ->setImage($request->request->get('image'))
+                    ->setCreatedAt(new \DateTime());
+            $manager->getManager()->persist($article);
+            $manager->getManager()->flush();
+            return $this->redirectToRoute('blog_show',[
+                'id' => $article->getId()
+            ]);
+        }
+
+        return $this->render("blog/create.html.twig");
+    }
+

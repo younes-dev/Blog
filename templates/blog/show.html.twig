@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <article>
+        <h2>{{ article.titre }}</h2>
+        <div class="metadata">ecrit le {{ article.createdAt |date('d/m/y') }} à {{ article.createdAt |date('H:i') }} dans la catégorie Politique</div>
+        <div class="content">
+            <img src="{{ article.image }}" alt="">
+            <p>
+                {{ article.content |raw}}
+            </p>
+        </div>
+    </article>
+
+
+{% endblock %}

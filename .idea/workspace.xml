@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ceb94539-9ab7-49f0-92cb-778b90323a9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1dinvYqoE1iedTKykwdqgV7vEjM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/base.html.twig" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/templates/blog" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.home.html.twig">
+    <configuration type="JavascriptDebugType">
+      <method v="2" />
+    </configuration>
+    <configuration type="JavascriptDebugType" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html.twig" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Blog/templates/blog/home.html.twig" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ceb94539-9ab7-49f0-92cb-778b90323a9d" name="Default Changelist" comment="" />
+      <created>1592917012072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592917012072</updated>
+      <workItem from="1592917018856" duration="4866000" />
+      <workItem from="1592922447388" duration="2753000" />
+      <workItem from="1592925841720" duration="8671000" />
+      <workItem from="1592936999846" duration="1877000" />
+      <workItem from="1592939657292" duration="30777000" />
+      <workItem from="1593014089282" duration="49028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="76" y="159" width="1806" height="786" key="#Live_Templates" timestamp="1592921645061">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="76" y="159" width="1806" height="786" key="#Live_Templates/49.27.1871.1053@49.27.1871.1053" timestamp="1592921645061" />
+    <state x="481" y="420" width="261" height="263" key="#Notifications" timestamp="1592928689604">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="481" y="420" width="261" height="263" key="#Notifications/49.27.1871.1053@49.27.1871.1053" timestamp="1592928689604" />
+    <state x="625" y="432" width="708" height="241" key="#Prettier" timestamp="1592937697064">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="625" y="432" width="708" height="241" key="#Prettier/49.27.1871.1053@49.27.1871.1053" timestamp="1592937697064" />
+    <state x="281" y="405" width="1397" height="294" key="#SQL_Dialects" timestamp="1592963421145">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="281" y="405" width="1397" height="294" key="#SQL_Dialects/49.27.1871.1053@49.27.1871.1053" timestamp="1592963421145" />
+    <state x="442" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592929241241">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="442" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1592929241241" />
+    <state x="425" y="353" width="608" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593021173959">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="425" y="353" width="608" height="396" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1871.1053@49.27.1871.1053" timestamp="1593021173959" />
+    <state x="717" y="335" width="524" height="434" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1592938082680">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="717" y="335" width="524" height="434" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/49.27.1871.1053@49.27.1871.1053" timestamp="1592938082680" />
+    <state x="718" y="467" width="523" height="171" key="ComposerInitDialogKey" timestamp="1592964398461">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="718" y="467" width="523" height="171" key="ComposerInitDialogKey/49.27.1871.1053@49.27.1871.1053" timestamp="1592964398461" />
+    <state x="767" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592937659787">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="767" y="310" width="424" height="484" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1592937659787" />
+    <state width="1521" height="279" key="GridCell.Tab.0.bottom" timestamp="1592936976151">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.0.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976151" />
+    <state width="1521" height="279" key="GridCell.Tab.0.center" timestamp="1592936976150">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.0.center/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976150" />
+    <state width="1521" height="279" key="GridCell.Tab.0.left" timestamp="1592936976150">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.0.left/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976150" />
+    <state width="1521" height="279" key="GridCell.Tab.0.right" timestamp="1592936976151">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.0.right/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976151" />
+    <state width="1521" height="279" key="GridCell.Tab.1.bottom" timestamp="1592936976152">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.1.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976152" />
+    <state width="1521" height="279" key="GridCell.Tab.1.center" timestamp="1592936976151">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.1.center/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976151" />
+    <state width="1521" height="279" key="GridCell.Tab.1.left" timestamp="1592936976151">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.1.left/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976151" />
+    <state width="1521" height="279" key="GridCell.Tab.1.right" timestamp="1592936976152">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="1521" height="279" key="GridCell.Tab.1.right/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976152" />
+    <state width="903" height="340" key="GridCell.Tab.2.bottom" timestamp="1592936976140">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="903" height="340" key="GridCell.Tab.2.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976140" />
+    <state width="903" height="340" key="GridCell.Tab.2.center" timestamp="1592936976139">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="903" height="340" key="GridCell.Tab.2.center/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976139" />
+    <state width="903" height="340" key="GridCell.Tab.2.left" timestamp="1592936976138">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="903" height="340" key="GridCell.Tab.2.left/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976138" />
+    <state width="903" height="340" key="GridCell.Tab.2.right" timestamp="1592936976140">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="903" height="340" key="GridCell.Tab.2.right/49.27.1871.1053@49.27.1871.1053" timestamp="1592936976140" />
+    <state width="959" height="341" key="GridCell.Tab.3.bottom" timestamp="1592925810716">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="959" height="341" key="GridCell.Tab.3.bottom/49.27.1871.1053@49.27.1871.1053" timestamp="1592925810716" />
+    <state width="959" height="341" key="GridCell.Tab.3.center" timestamp="1592925810716">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="959" height="341" key="GridCell.Tab.3.center/49.27.1871.1053@49.27.1871.1053" timestamp="1592925810716" />
+    <state width="959" height="341" key="GridCell.Tab.3.left" timestamp="1592925810716">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="959" height="341" key="GridCell.Tab.3.left/49.27.1871.1053@49.27.1871.1053" timestamp="1592925810716" />
+    <state width="959" height="341" key="GridCell.Tab.3.right" timestamp="1592925810716">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state width="959" height="341" key="GridCell.Tab.3.right/49.27.1871.1053@49.27.1871.1053" timestamp="1592925810716" />
+    <state x="473" y="187" key="SettingsEditor" timestamp="1593089323859">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="473" y="187" key="SettingsEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1593089323859" />
+    <state x="149" y="127" width="1769" height="849" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593015729753">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="149" y="127" width="1769" height="849" key="com.intellij.history.integration.ui.views.FileHistoryDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1593015729753" />
+    <state x="704" y="363" width="550" height="377" key="jetbrains.nodejs.interpreters-dialog" timestamp="1592937805805">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="704" y="363" width="550" height="377" key="jetbrains.nodejs.interpreters-dialog/49.27.1871.1053@49.27.1871.1053" timestamp="1592937805805" />
+    <state x="648" y="253" key="run.anything.popup" timestamp="1593037170169">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="648" y="253" key="run.anything.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1593037170169" />
+    <state x="779" y="414" width="400" height="277" key="scopes" timestamp="1592936350439">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="779" y="414" width="400" height="277" key="scopes/49.27.1871.1053@49.27.1871.1053" timestamp="1592936350439" />
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1592965079338">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1592965079338" />
+    <state x="709" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1592952560235">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="709" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1592952560235" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Blog$home_html_twig.dat" NAME="home.html.twig Coverage Results" MODIFIED="1592928138000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Blog$index_html_twig.dat" NAME="index.html.twig Coverage Results" MODIFIED="1592928201116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

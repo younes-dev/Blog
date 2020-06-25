@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1>
+        {{ editMode?'Edit article':'Creation d\'un article' }}
+    </h1>
+
+    {{ form_start(formArticle) }}
+    {{ form_errors(formArticle.titre) }}
+    {{ form_row(formArticle.titre,{'attr': {'Placeholder': 'titre de l\'article'}}) }}
+    {{ form_row(formArticle.content,{'attr': {'Placeholder': 'content de l\'article'}}) }}
+    {{ form_row(formArticle.image,{'attr': {'Placeholder': 'image de l\'article'}}) }}
+
+{#    {% if editMode %}#}
+{#        <button type="submit" class="btn btn-success">Edit</button>#}
+{#    {% else %}#}
+{#        <button type="submit" class="btn btn-success">Create</button>#}
+{#    {% endif %}#}
+
+        <button type="submit" class="btn btn-success"> {{ editMode?'Edit':'Create' }}</button>
+    {{ form_end(formArticle) }}
+
+{% endblock %}
+
+
