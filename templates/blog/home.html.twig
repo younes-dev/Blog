@@ -1,14 +1,78 @@
 {% extends 'base.html.twig' %}
+{% import "macros/form.html.twig" as Macroform %}
+{#https://gist.github.com/iamkirkbater/970c354aa73302448f647676b83e52f7#}
+{#https://mijingo.com/blog/using-macros-in-twig-and-craft#}
 
 {% block body %}
 
-<h1> Bienvene Daans Ce Blog !!</h1>
+    <h1> Bienvene Daans Ce Blog !!</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci asperiores aut autem blanditiis
-    commodi corporis distinctio dolor dolorum eius enim ex expedita fugiat ipsum iste iusto, magnam molestias
-    necessitatibus praesentium quas quo quod rerum saepe sint, tempore voluptate voluptatibus?</p><p>Culpa deserunt
-    dolorem ex ipsum nam quas quasi quidem reprehenderit? Culpa laboriosam omnis quaerat quis soluta. Ab commodi cumque
-    dolore doloribus earum maxime molestiae? Exercitationem fuga in inventore nemo neque nihil nobis, qui quidem
-    quisquam reiciendis suscipit ullam velit veritatis!</p>
+
+        <div class="row">
+
+            <div class="col-1">
+                {{ Macroform.label("Login", "Login") }}
+                <br><br>
+                {{ Macroform.label("password", "Password") }}
+            </div>
+            <div class="col-3">
+                {{ Macroform.input('Login','Type your Login') }}
+                <br><br>
+                {{ Macroform.input('password','your password','password') }}
+            </div>
+
+            <div class="col-8">
+                 <span class="badge badge-info">
+                     {% apply upper %}
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     {% endapply %}
+                 </span>
+
+                Accusantium adipisci asperiores aut autem blanditiis
+                commodi corporis distinctio dolor dolorum eius enim ex expedita fugiat ipsum iste iusto, magnam molestias
+                necessitatibus praesentium quas quo quod rerum saepe sint, tempore voluptate voluptatibus?
+
+                <p>Culpa deserunt
+                dolorem ex ipsum nam quas quasi quidem reprehenderit? Culpa laboriosam omnis quaerat quis soluta. Ab commodi
+                cumque
+                dolore doloribus earum maxime molestiae? Exercitationem fuga in inventore nemo neque nihil nobis, qui quidem
+                quisquam reiciendis suscipit ullam velit veritatis!</p>
+            </div>
+
+        </div>
+
+{#                <div class="col-1">#}
+{#                    {{ Macroform.label("password", "Password") }}#}
+{#                </div>#}
+{#                <div class="col-3">#}
+{#                    {{ Macroform.input('password','your password','password') }}#}
+{#                </div>#}
+
+    <p>
+
+    <hr>
+
+        {% set networks = {
+            twitter: { name: "Twitter", url: "http://twitter.com/mijingo" },
+            facebook: { name: "Facebook", url: "http://facebook.com/mijingo" },
+            instagram: { name: "Instagram", url: "http://instagram.com/mijingo" }
+        } %}
+
+        {{ Macroform.socialList(networks,"text-left text-capitalize") }}
+    </p>
 
 {% endblock %}
+
+{#**************************************************************************#}
+{#*******************    Verifier pour koi ca marche pas    ****************#}
+{#**************************************************************************#}
+{#    {% macro input(label, name, value, type, size, placeholder) %}#}
+{#        <label>{{ label }}#}
+{#            <input type="{{ type|default('text') }}" name="{{ name }}"{% if value %} value="{{ value }}"{% endif %} size="{{ size|default(30) }}{% if placeholder %} placeholder={{ placeholder }}"{% endif %}>#}
+{#        </label>#}
+{#    {% endmacro %}#}
+{#    #}
+{#    {% import _self as fields %}#}
+{#        <p>{{ fields.input('User Name', 'username') }}</p>#}
+{#        <p>{{ fields.input('Password', 'password', null, 'password') }}</p>#}
+{#        <p>{{ fields.input('Your Name', 'name', null, null, 40, 'Enter your full name') }}</p>#}

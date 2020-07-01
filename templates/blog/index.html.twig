@@ -5,12 +5,11 @@
 {% block body %}
 
     <section class="articles">
-
 {# (article>h2{Title de l'article}+div.metadata{ecrit le 23/06/2020 à 18h dans la catégorie Politique}+div.content>img+(p>lorem15)*2+a.btn.btn-primary{Lire la suite})*3#}
         {% for article in articles  %}
         <article>
             <h2>{{ article.titre }}</h2>
-            <div class="metadata">ecrit le {{ article.createdAt |date('d/m/y') }} à {{ article.createdAt |date('H:i') }} dans la catégorie Politique</div>
+            <div class="metadata">ecrit le {{ article.createdAt |date('d/m/y') }} à {{ article.createdAt |date('H:i') }} {{ article.category.title }}</div>
             <div class="content"><img src="{{ article.image }}" alt="bleu">
                 <p>
                     {{ article.content | raw }}
@@ -19,9 +18,14 @@
         </article>
         {% endfor  %}
     </section>
+
+
+    <p></p>
+    <div class="row">
+        <div class="col-5">  {{ knp_pagination_render(articles) }}</div>
+        <div class="col-5">Articles counted: {{ articles.getTotalItemCount }}</div>
+    </div>
 {% endblock %}
-
-
 
 
 

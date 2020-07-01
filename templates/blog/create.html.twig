@@ -9,6 +9,7 @@
     {{ form_start(formArticle) }}
     {{ form_errors(formArticle.titre) }}
     {{ form_row(formArticle.titre,{'attr': {'Placeholder': 'titre de l\'article'}}) }}
+    {{ form_row(formArticle.category) }}
     {{ form_row(formArticle.content,{'attr': {'Placeholder': 'content de l\'article'}}) }}
     {{ form_row(formArticle.image,{'attr': {'Placeholder': 'image de l\'article'}}) }}
 

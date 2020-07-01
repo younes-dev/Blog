@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb94539-9ab7-49f0-92cb-778b90323a9d" name="Default Changelist" comment="" />
+    <list default="true" id="ceb94539-9ab7-49f0-92cb-778b90323a9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +21,16 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,27 +142,39 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
     </include_path>
   </component>
   <component name="ProjectId" id="1dinvYqoE1iedTKykwdqgV7vEjM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/base.html.twig" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/assets/slider" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/templates/blog" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/assets/slider" />
       <recent name="$PROJECT_DIR$/templates/blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/assets" />
+      <recent name="$PROJECT_DIR$/templates/macros" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.home.html.twig">
@@ -160,7 +193,7 @@
     <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -175,11 +208,36 @@
       <workItem from="1592936999846" duration="1877000" />
       <workItem from="1592939657292" duration="30777000" />
       <workItem from="1593014089282" duration="49028000" />
+      <workItem from="1593171114538" duration="574000" />
+      <workItem from="1593171712920" duration="1678000" />
+      <workItem from="1593173418442" duration="106000" />
+      <workItem from="1593173552264" duration="596000" />
+      <workItem from="1593174664479" duration="77539000" />
+      <workItem from="1593438514716" duration="14122000" />
+      <workItem from="1593484759153" duration="43032000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="76" y="159" width="1806" height="786" key="#Live_Templates" timestamp="1592921645061">
@@ -202,18 +260,30 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="442" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1592929241241" />
-    <state x="425" y="353" width="608" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593021173959">
+    <state x="425" y="353" width="608" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593247804903">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="425" y="353" width="608" height="396" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1871.1053@49.27.1871.1053" timestamp="1593021173959" />
+    <state x="425" y="353" width="608" height="396" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1871.1053@49.27.1871.1053" timestamp="1593247804903" />
     <state x="717" y="335" width="524" height="434" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1592938082680">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="717" y="335" width="524" height="434" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/49.27.1871.1053@49.27.1871.1053" timestamp="1592938082680" />
-    <state x="718" y="467" width="523" height="171" key="ComposerInitDialogKey" timestamp="1592964398461">
+    <state x="759" y="271" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1593509867509">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="718" y="467" width="523" height="171" key="ComposerInitDialogKey/49.27.1871.1053@49.27.1871.1053" timestamp="1592964398461" />
+    <state x="759" y="271" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/49.27.1871.1053@49.27.1871.1053" timestamp="1593509867509" />
+    <state x="717" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593191029280">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="717" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1593191029280" />
+    <state x="718" y="467" width="523" height="171" key="ComposerInitDialogKey" timestamp="1593189025608">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="718" y="467" width="523" height="171" key="ComposerInitDialogKey/49.27.1871.1053@49.27.1871.1053" timestamp="1593189025608" />
+    <state x="149" y="125" width="1671" height="855" key="DiffContextDialog" timestamp="1593172706724">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="149" y="125" width="1671" height="855" key="DiffContextDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1593172706724" />
     <state x="767" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592937659787">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
@@ -282,30 +352,46 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state width="959" height="341" key="GridCell.Tab.3.right/49.27.1871.1053@49.27.1871.1053" timestamp="1592925810716" />
-    <state x="473" y="187" key="SettingsEditor" timestamp="1593089323859">
+    <state x="539" y="272" width="881" height="561" key="NewPhpClassDialog" timestamp="1593189168038">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="473" y="187" key="SettingsEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1593089323859" />
-    <state x="149" y="127" width="1769" height="849" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593015729753">
+    <state x="539" y="272" width="881" height="561" key="NewPhpClassDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1593189168038" />
+    <state x="629" y="236" width="700" height="633" key="RollbackChangesDialog" timestamp="1593172705856">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="149" y="127" width="1769" height="849" key="com.intellij.history.integration.ui.views.FileHistoryDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1593015729753" />
+    <state x="629" y="236" width="700" height="633" key="RollbackChangesDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1593172705856" />
+    <state x="819" y="176" key="SettingsEditor" timestamp="1593428769977">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="819" y="176" key="SettingsEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1593428769977" />
+    <state x="149" y="127" width="1769" height="849" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593175535065">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="149" y="127" width="1769" height="849" key="com.intellij.history.integration.ui.views.FileHistoryDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1593175535065" />
+    <state x="1000" y="164" width="778" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593428277418">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="1000" y="164" width="778" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/49.27.1871.1053@49.27.1871.1053" timestamp="1593428277418" />
+    <state x="675" y="52" width="900" height="1013" key="find.popup" timestamp="1593528952362">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="675" y="52" width="900" height="1013" key="find.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1593528952362" />
     <state x="704" y="363" width="550" height="377" key="jetbrains.nodejs.interpreters-dialog" timestamp="1592937805805">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="704" y="363" width="550" height="377" key="jetbrains.nodejs.interpreters-dialog/49.27.1871.1053@49.27.1871.1053" timestamp="1592937805805" />
-    <state x="648" y="253" key="run.anything.popup" timestamp="1593037170169">
+    <state x="648" y="253" key="run.anything.popup" timestamp="1593171359598">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="648" y="253" key="run.anything.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1593037170169" />
+    <state x="648" y="253" key="run.anything.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1593171359598" />
     <state x="779" y="414" width="400" height="277" key="scopes" timestamp="1592936350439">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="779" y="414" width="400" height="277" key="scopes/49.27.1871.1053@49.27.1871.1053" timestamp="1592936350439" />
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1592965079338">
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1593224091799">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
-    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1592965079338" />
+    <state x="647" y="257" width="672" height="678" key="search.everywhere.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1593224091799" />
     <state x="709" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1592952560235">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>

@@ -1,0 +1,24 @@
+{% macro input(name, value, type = "text", size = 20) %}
+    <input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}"/>
+{% endmacro %}
+
+{% macro textarea(name, value, rows = 10, cols = 40) %}
+    <textarea name="{{ name }}" rows="{{ rows }}" cols="{{ cols }}">{{ value|e }}</textarea>
+{% endmacro %}
+
+{% macro label(for,id) %}
+    <label for={{ for }} id={{ id }} >user</label>
+    <label for={{ for }} id={{ id }}>password</label>
+{% endmacro %}
+
+{% macro label(for, content) %}
+    <label for="{{ for }}">{{ content|e }}</label>
+{% endmacro %}
+
+{% macro socialList(networks, className) %}
+    <ul {% if className %}class="{{ className }}"{% endif %}>
+        {% for network in networks %}
+            <li class="{{ network.name | lower }}"><a href="{{ network.url }}">{{ network.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endmacro %}

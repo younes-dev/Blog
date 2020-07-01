@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    <style>
+        .c1,.c2 {
+            /*background-color: #87c9a0;*/
+            background-color: #99CDD8;
+            color: #218BC3!important;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <h1> Bonjour dans la page registration </h1>
+{#    {{ form_start(form, { 'attr' : { 'class': 'registration' } }) }}#}
+
+    {{ form_start(form) }}
+    {{ form_row(form.username,{'label': 'Nom D\'utilisateur','attr': {'placeholder':'Nom D\'utilisateur...'}}) }}
+    {{ form_row(form.email,{'label': 'Email D\'utilisateur','attr': {'placeholder':'Email D\'utilisateur...'}}) }}
+    {{ form_row(form.password,{'label': 'Mot de passe','attr': {'placeholder':'Mot de passe...'}}) }}
+    {{ form_row(form.confirm_password,{'label': 'Confirmation du Mot de passe','attr': {'placeholder':'Confirmation du Mot de passe...'}}) }}
+
+
+    <button type="submit" class="btn btn-success">Inscription</button>
+    <button type="reset" class="btn btn-warning" id="reset">Reset Fields</button>
+    {{ form_end(form) }}
+
+    <script>
+        // try to clear inputs in page load.
+        // $('#reset').on('load', function () {
+        //     $('.registration').trigger("reset");
+        // });
+
+        // $(document).ready(function(){
+        //     $( window ).load(function() {
+        //         // Run code
+        //         document.getElementsByClassName(".reset").click();
+        //
+        //     });
+        // });
+
+        // jQuery(function(){
+        //     jQuery('#reset').click();
+        // });
+
+        // $(document).ready(function(){
+        //     $("#reset").trigger('click');
+        // });
+    </script>
+
+{% endblock %}
+
